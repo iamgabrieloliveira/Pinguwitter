@@ -7,7 +7,6 @@ import {
   FavoriteBorder,
   Person,
   ExitToApp,
-  Rocketseat,
 } from '../../styles/Icons';
 
 export const Container = styled.div`

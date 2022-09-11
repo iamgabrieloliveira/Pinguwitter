@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import ProfilePage from '../ProfilePage';
 
@@ -14,13 +15,13 @@ import {
   EmailIcon,
 } from './styles';
 
-const Main: React.FC = () => {
+const ProfileMain: React.FC = () => {
   return (
     <Container>
       <Header>
-        <button>
+        <Link to="/home">
           <BackIcon />
-        </button>
+        </Link>
 
         <ProfileInfo>
           <strong>Oliveira</strong>
@@ -40,4 +41,4 @@ const Main: React.FC = () => {
   );
 };
 
-export default Main;
+export default ProfileMain;

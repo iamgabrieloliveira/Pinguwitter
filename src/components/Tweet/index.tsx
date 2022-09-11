@@ -27,7 +27,7 @@ const Tweet: React.FC = () => {
       </Retweeted>
 
       <Body>
-        <Avatar src="rickavatar.jpg"/>
+        <Avatar src="mortyavatar.jpg"/>
 
         <Content>
           <Header>
